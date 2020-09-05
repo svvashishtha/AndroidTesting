@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android testing</string>
+    <string name="string_to_be_tested">We are going to test whether this string is shown in our App.</string>
 </resources>
