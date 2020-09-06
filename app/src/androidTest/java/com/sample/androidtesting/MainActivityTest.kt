@@ -30,4 +30,9 @@ class MainActivityTest {
         onView(withId(R.id.text_container)).check(matches(withText(stringToBeChecked)))
     }
 
+    @Test
+    fun checkIfWordCountIsCorrect(){
+        onView(withId(R.id.word_count)).check(matches(withText(StringUtil.countNoOfWords(stringToBeChecked).toString())))
+    }
+
 }
